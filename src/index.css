@@ -1,0 +1,11 @@
+ nav a {
+    background-color: rgb(178, 186, 178);
+    padding: 2%;
+ }
+ nav {
+    margin: 2%;
+ }
+ nav  a.active {
+    text-decoration: none;
+    color: aliceblue;
+ }
