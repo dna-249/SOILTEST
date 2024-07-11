@@ -21,28 +21,33 @@ ul{
     padding: 5px;
     font-size: 20px;
 }
+.cont1 ul > li > a:hover {
+    background-color: rgb(156, 245, 144);
+}
+.cont2 ul > li > a:hover {
+    background-color: palevioletred;
+}
 .cont2 ul >li > a{
     border-bottom: #fff solid 1px;
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     display: block;
 
 }
 .cont2{
-    background: #0c5ca8;
-    width: 20%;
+    background: #354554;
+    width: 15%;
     height: auto;
     border: #fff solid 1px;
     border-top: none;
     border-left: none;
+    margin-top: 50px;
 }
 .cont3{
     background: transparent;
     width: 80%;
     height: auto;
-    border: #fff solid 1px;
-    border-top: none;
-    border-left: none;
+    border: none;
     justify-content: center;
 
     
@@ -94,6 +99,7 @@ a {
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    margin-top: 100px;
 }
 
 .form-container form {

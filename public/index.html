@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body >
+<body>
     <div class="cont" style="position: fixed"> 
         <div style="color:#fff; font-size: large;margin-top: 20px;"> DNASOILTEST</div>
         <div class="cont1">
@@ -20,7 +20,7 @@
                     <a href="#">Home</a>
                     <a href="#">Service</a>
                     <a href="#">About</a>
-                    <a href="#">contact</a>
+                    <a href="#" onclick="nur()">login</a>
                 </li>
             </ul>
         </div>
@@ -29,14 +29,14 @@
     <div class="cont2" style="position: static;">
         <ul>
             <li>
-                <a href="">soil</a>
-                <a href="#">soil acidity</a>
-                <a href="#">salinity</a>
-                <a href="#">sodicity</a>
+                <a href="#">soil Acidity</a>
+                <a href="#">Type of Acidity</a>
+                <a href="#">Causes of Acidity</a>
+                <a href="#">Control Measures</a>
             </li>
         </ul>
     </div>
-    <div class="cont3" style="margin: 50px;"> 
+    <div class="cont3" style="margin: 50px;" id="cont"> 
        <h1>What is soil acidity?</h1> 
 Soil acidity is a condition in which the soil pH is lower than a neutral pH (less than 7). Soil pH is a measure of the hydrogen (H+) ion concentration expressed as the negative common logarithm of H+ concentration. It is an index of the activity of H+ as it interacts with soil components, nutrients in the soil solution (water) and plants growing in the soil.
 of soil acidity
@@ -88,8 +88,8 @@ There are a number of ways to minimize the soil acidification process, including
 
 
 
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
+    <div class="container" id="container"  style="position: fixed;">
+        <div class="form-container sign-up-container" id="cont">
             <form action="#">
                 <h1>Create Account</h1>
                 <div class="social-container">
@@ -116,7 +116,7 @@ There are a number of ways to minimize the soil acidification process, including
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
+                <button onclick="nu()">Sign In</button>
             </form>
         </div>
         <div class="overlay-container">

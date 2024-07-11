@@ -12,5 +12,5 @@ function nur(){
     document.getElementById('container').style.display ='block';
 };
 function nu(){
-    document.getElementById('container').style.display ='none';
-}
+    document.getElementById('cont').style.display ='none';
+};
