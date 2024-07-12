@@ -10,13 +10,15 @@ function App(){
   return(
     <>
     <Navbar/>
-    <Routes>
+    <div className="cont3">
+    <Routes >
        <Route path="/" element={<Home/>}/>
       <Route path="/payments" element={<Payment/>} />
       <Route path="/Records" element={<Records/>} />
       <Route path="/overviews" element={<Overview/>}/>
       <Route path="/product" element={<Product/>}/>
       </Routes>
+      </div>
     </>
   )
 }

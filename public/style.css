@@ -43,15 +43,6 @@ ul{
     border-left: none;
     margin-top: 50px;
 }
-.cont3{
-    background: transparent;
-    width: 80%;
-    height: auto;
-    border: none;
-    justify-content: center;
-
-    
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +77,6 @@ a {
     color: #0e263d;
     font-size: 14px;
     text-decoration: none;
-    margin: 15px 0;
 }
 
 .container {

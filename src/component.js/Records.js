@@ -1,26 +1,14 @@
-import { useNavigate } from "react-router-dom"
-import { Home } from "./home";
 
 export const Records = () => {
-const nur = useNavigate();
     return(
+      
         <>
-        <div>
-        <h1>Records on the basis of sales the products:</h1>
-        <h5>Street/District:</h5>
-          <input type="password" name="Middle name" placeholder="Street/District"  id="user"/>
-          </div>       
-        <h3>
-            <ul>
-            <li>Estates </li>
-            <li>Phones  </li>
-            <li>Furnitures</li>
-            <li> Cements</li>
-            <li>Infrastructure </li>
-            <li onClick={()=>nur('/Home')}>Gold World</li>
-            
-            </ul>
-        </h3>
+         <h1>Signs of soil acidity</h1>
+<ol><li>Acidic soil has a pH below 7. The common pH range for acidic soil is between 4 and 6. Acidic soil is often found in areas with high rainfall
+    </li><li>Acidic soils tend to have low nutrient availability for several important nutrients, such as calcium (Ca), magnesium (Mg), and phosphorus (P).
+        </li><li>Poor growth and development of plant
+            </li><li>Poor yielding due to nutrient deficiency
+            </li></ol>
   </>
     )
 }
