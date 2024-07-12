@@ -27,22 +27,6 @@ ul{
 .cont2 ul > li > a:hover {
     background-color: palevioletred;
 }
-.cont2 ul >li > a{
-    border-bottom: #fff solid 1px;
-    padding: 5px;
-    color: #fff;
-    display: block;
-
-}
-.cont2{
-    background: #354554;
-    width: 15%;
-    height: auto;
-    border: #fff solid 1px;
-    border-top: none;
-    border-left: none;
-    margin-top: 50px;
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
