@@ -3,7 +3,7 @@
 export const Product = () => {
     return(
     <>
-  <h1> Types of Soil Acidity </h1> 
+  <h3> Types of Soil Acidity </h3> 
 Two types of acidity occur in soils. Soil acidity determined by pH measurement during a routine soil test is known as active acidity. This is the concentration of H+ ions in the soil solution when measured in a 1:1 soil-to-water ratio mixture.
 However, not all H+ ions are released immediately by the soil into solution. A portion of the H+ ions remain attached to negatively charged exchange sites on clay and organic matter (OM) particles.
 This acidity is called reserve acidity because H+ can be released into solution as soil solution conditions change due to moisture changes, and concentrations of dissolved ions and salts occur. This acidity can be measured by the addition of a dilute calcium chloride solution (0.01 M CaCl2) or a buffer to the water pH suspension.

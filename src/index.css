@@ -20,7 +20,7 @@
 }
 .nuu{
    background: #354554;
-   width: 15%;
+   width: 25%;
    height: 500px;
    border: #fff solid 1px;
    border-top: none;
@@ -29,7 +29,7 @@
 }
 .cont3{
    background: transparent;
-   width: 80%;
+   width: 75%;
    height: auto;
    border: none;
    justify-content: center;
@@ -37,8 +37,9 @@
    margin:10%
    
 }
-h1{
+h3{
    text-align: center;
    margin-bottom: 2%;
+   
 }
 
