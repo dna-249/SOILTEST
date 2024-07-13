@@ -11,7 +11,7 @@
    display: flex; 
 }
 .cont1{
-    margin-left: 70%;
+    margin-left: auto;
 }
 ul{
     list-style: none;
@@ -19,7 +19,7 @@ ul{
 .cont1 ul > li > a {
     color: #fff;
     padding: 2px;
-    font-size: 15px;
+    font-size: 11px;
 }
 .cont1 ul > li > a:hover {
     background-color: rgb(156, 245, 144);
@@ -71,7 +71,7 @@ a {
     position: relative;
     overflow: hidden;
     width: 768px;
-    max-width: 100%;
+    max-width: 50%;
     min-height: 480px;
     margin-top: 100px;
 }

@@ -10,7 +10,7 @@ function App(){
   return(
     <>
     <div className="co">
-    <div className="nuu">
+    <div>
     <Navbar/>
     </div>
     <div className="nuu2">
