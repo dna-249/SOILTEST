@@ -1,7 +1,6 @@
 
 export const Records = () => {
     return(
-      
         <>
          <h3>Signs of soil acidity</h3>
 <ol><li>Acidic soil has a pH below 7. The common pH range for acidic soil is between 4 and 6. Acidic soil is often found in areas with high rainfall
