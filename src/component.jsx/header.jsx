@@ -4,7 +4,7 @@ return(
     <div className="header">
         <ul className="header-ul">
             <li className="header-li">
-                <a href="#"> My-CV</a>
+                <a href="#"> MyCV</a>
                 <a href="#"> Education</a>
                 <a href="#">Experience</a>
                 <a href="#">Projects</a>

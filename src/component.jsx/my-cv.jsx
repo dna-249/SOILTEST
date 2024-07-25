@@ -17,10 +17,12 @@ export const MyCv =()=>{
         </div>
         <div onClick={nur} className="Cv" id="nur">
             <div className="myCv"style= {{backgroundColor:change}}>{change}</div>
-            <h1 className="myCv-title"> Danamo Nura Alhaji</h1>
+            <div className="cv-text">
+            <h4 className="myCv-title"> Danamo Nura Alhaji</h4>
             <p className="myCv-email"> Email: danamonuraalhaji@gmail.com</p>
             <p className="myCv-address">Address: Kafe-District, life-Camp Abuja</p>
             <p className="myCv-contact"> Contact: 08085943776,07037638761</p>
+        </div>
         </div>
         </>
     )
