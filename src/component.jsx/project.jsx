@@ -9,6 +9,7 @@ export const Project = () =>{
     const [text5, setText5] = useState("");
     const [newText, setNewText] = useState([]);
     function handleNewText(){
+        const newtask = document.getElementById("newtask1").style.display = "block";
          const updatedTask = {
             text:text,
             text1:text1,
@@ -53,10 +54,10 @@ export const Project = () =>{
             border:"none",backgroundColor:"lightgrey",
             borderRadius:"10px", width:"fit-content", fontSize:"20px"
         }}>Place Order and Get Your Ticket</h3>
-          <p> Fullname:  <input onChange={handleText}  value={text} type="text" placeholder="fullname"  required/> <br/>
-            Location: <input   onChange={handleText1}  value={text1} type="text"  placeholder="location" required /> <br/>
-            Tel:<input onChange={handleText2}  value={text2} type="number"  placeholder="Phone Number" required/></p> <br/>
-            <p> Payment method: 
+          <p> Fullname:  <input onChange={handleText}  value={text} type="text" placeholder="fullname"  /> <br/>
+            Location: <input   onChange={handleText1}  value={text1} type="text"  placeholder="location" /> <br/>
+            Tel:<input onChange={handleText2}  value={text2} type="number"  placeholder="Phone Number" /></p> <br/>
+            <p> Payment Method: 
             <select onChange={handleText3} value={text3}>
                 <option > </option>
                 <option> visa</option>
@@ -65,12 +66,12 @@ export const Project = () =>{
             </select>
             </p>
             <br/>
-            <p> Delivery: <br/> 
+            <p> Delivery :<br/> 
                 <label><input  onChange={handleText4} value="pick up" checked={text4 ==="pick up"}  type="radio"/> pick-up</label><br/>
                 <label><input   onChange={handleText5} value="delivery" checked={text5 ==="delivery"} type="radio"/> Delivery </label>
                 </p>
             <div>
-                <button  style={{marginLeft:"20%"}}  className="project-h" onClick={handleNewText}>confirm Order</button>
+                <button  style={{marginLeft:"20%"}}  className="project-h" onClick={handleNewText}>confirm</button>
             <div id="newtask1"  className="newtask"> 
                {newText.map((newText, index)=>
                 <ul key={index}>
@@ -80,7 +81,7 @@ export const Project = () =>{
                  <span> Payment-type: {newText.text3}</span><br/>
                  <span> collection:{newText.text4}</span><br/><span>{newText.text5}</span>
                     </ul>)}
-                    <h3 onClick={confirmOrder}  className="project-h"> Print</h3>
+                    <h3 onClick={confirmOrder}  className="project-h"> Print Ticket</h3>
                     </div></div>
         </div>
     )
