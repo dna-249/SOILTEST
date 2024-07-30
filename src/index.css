@@ -1,3 +1,91 @@
+.container{
+   height:fit-content;
+   width:fit-content;
+   border: none;
+   display: flex;
+   background-color:  hsl(31, 39%, 57%);
+   align-items:center;
+   flex-wrap: wrap ;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10px;
+   border-radius: 10px;
+   margin: auto;
+   
+   
+}
+button{
+   align-items: center;
+   border:none;
+   background-color: rgb(78, 52, 20);
+   text-align: center;
+   padding: 10px;
+   border-radius: 20px;
+   width: 50px;
+   height: 50px;
+   color: white;
+   
+}
+button:hover{
+   background-color: hsl(33, 76%, 57%);
+}
+.button{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+border: none;
+background-color:  rgb(150, 112, 64);
+border-radius: 10px;
+padding: 10px;
+
+
+}
+#display{
+   outline: none;
+   font-size: 30px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   margin-top: 10px;
+   width: 250px;
+   border: none;
+   background-color:hsl(0, 0%, 80%);
+}
+#display:focus{
+   outline: none;
+}
+.calculator{
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header{
    display: flex;
    background-color:rgb(196, 196, 152);
@@ -28,21 +116,20 @@ a{
    color: white;
    padding: 15px;
 }
-
-
-
 body{
-    background-color: rgb(85, 78, 78);
+    background-color: rgb(248, 244, 244);
+    justify-content: center;
+    align-items: center; 
+    display: block; 
+   padding-top: 150px;
 }
-
 .myCv{
    width: 50%;
    height: 100px;
    border: none;
-   background-color: hsla(270, 14%, 29%, 0.229);
+   background-color: hsla(272, 46%, 84%, 0.798);
    border-radius: 10px;
-   
-  
+   margin: auto;
 }
 .Cv{
    display: flex;
@@ -54,17 +141,103 @@ body{
    box-shadow: 0 0 2px black;
    border: none;
    margin:auto;
-   background-color: hsl(31, 37%, 83%);
+   background-color: hsla(192, 47%, 46%, 0.455);
    border-radius: 10px;
    padding: 10px;
    max-width: 70%;
    min-width: 50%;
-
+   display: none;
+   font-weight: bold;
 }
 .Cv:hover{
-   background-color: hsl(31, 37%, 100%);
+   background-color: hsla(192, 76%, 39%, 0.933);
+   font-weight: bold;
+   color: aliceblue;
 }
 .Cv-text{
    border: none;
    padding: 5px;
+}
+.main{
+   background-color:hsla(195, 69%, 32%, 0.852);
+   border: none;
+   height: fit-content;
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+   max-width:70% ;
+   min-width:20% ;
+   margin-left: 10%;
+   display:none;
+}
+div:target{
+   display: block;
+   
+   
+
+}
+.main-h{
+   border: none;
+   background-color:hsla(243, 87%, 75%, 0.646) ;
+   padding: 10px;
+   border-radius: 10px;
+   width:fit-content;
+   font-size: small;
+}
+.main-ul{
+   display: block
+   
+}
+.project-cont{
+   justify-content: center;
+   margin-left: 10%;
+   border: none;
+   background-color: hsl(36, 83%, 56%);
+   padding: 5%;
+   border-radius: 10px;
+   width: 70%;
+   display: none;
+   margin-bottom:15%;
+}
+input{
+   margin-top: 2%;
+   margin-left: 2px;
+}
+.newtask{
+   border: none;
+   width: fit-content;
+   height: fit-content;
+   background-color: rgb(239, 234, 234);
+   padding: 10px;
+   border-radius: 10px;
+   position: absolute;
+   display: flex;
+   right:20%;
+   top: 50%;
+   display: none;
+   box-shadow:  0 2px 15px black;
+   
+}
+span{
+   font-weight: bold;
+   background-color: hsla(0, 5%, 79%, 0.207);
+   border: none;
+   display: block;
+   padding-right: 20px;
+   border-radius: 10px;
+
+}
+.project-h{
+   border: none;
+   background-color:lightgreen;
+   padding: 10px;
+   border-radius: 10px;
+   width:fit-content;
+   font-size: small;
+   margin: auto;
+   color:white;
+
+}
+.project-h:hover{
+background-color: hsl(120, 70%, 62%);;
 }
