@@ -10,6 +10,7 @@ export const Project = () =>{
     const [newText, setNewText] = useState([]);
     function handleNewText(){
         const newtask = document.getElementById("newtask1").style.display = "block";
+        
          const updatedTask = {
             text:text,
             text1:text1,
